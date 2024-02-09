@@ -40,7 +40,10 @@
                         cont++;
                         break;
                     case 2:
-                        for (int i=0;i<cont;i++)
+                        for (int i = 0; i < cont; i++)
+                        {
+                            Console.WriteLine($"nome:{nome[cont]} cognome:{cognome[cont]} nickname {nickname[cont]} email:{email[cont]} anno{anno[cont]} simaptia{simpatia[cont]}   ");
+                        }
                             break;
                 }
 
