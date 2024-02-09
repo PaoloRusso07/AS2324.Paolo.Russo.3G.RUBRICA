@@ -45,6 +45,19 @@
                             Console.WriteLine($"nome:{nome[cont]} cognome:{cognome[cont]} nickname {nickname[cont]} email:{email[cont]} anno{anno[cont]} simaptia{simpatia[cont]}   ");
                         }
                             break;
+                    case 3:
+                        Console.WriteLine("inserire in nickname da cercare");
+                        string ricerca=Console.ReadLine();
+                        for(int i= 0; i < cont; i++)
+                        {
+                            if(ricerca == nickname[i])
+                            {
+                                Console.WriteLine("le persone ritrovate con lo stesso nickname sono :\n");
+                                Console.WriteLine($"nome:{nome[cont]} cognome:{cognome[cont]} nickname {nickname[cont]} email:{email[cont]} anno{anno[cont]} simaptia{simpatia[cont]}   ");
+                            }
+                        }
+                          
+                        break;
                 }
 
             } while (scelta != 0);
