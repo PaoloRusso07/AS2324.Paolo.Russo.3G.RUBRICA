@@ -40,7 +40,7 @@
                         cont++;
                         break;
                     case 2:
-                        for ()
+                        for (int i=0;i<cont;i++)
                             break;
                 }
 
